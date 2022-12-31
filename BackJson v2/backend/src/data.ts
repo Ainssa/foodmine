@@ -1,17 +1,4 @@
-
-export const sample_tags:any[] = [
-  { name: 'All', count: 6 },
-  { name: 'FastFood', count: 4 },
-  { name: 'Pizza', count: 2 },
-  { name: 'Lunch', count: 3 },
-  { name: 'SlowFood', count: 2 },
-  { name: 'Hamburger', count: 1 },
-  { name: 'Fry', count: 1 },
-  { name: 'Soup', count: 1 },
-]
-
-
-export const sample_foods: any[] = [
+ export const sample_foods: any[] = [
   {
     id:'1',
     name: 'BigMac',
@@ -79,3 +66,33 @@ export const sample_foods: any[] = [
     tags: ['FastFood', 'Pizza', 'Lunch'],
   },
 ]
+
+
+export const sample_tags:any[] = [
+  { name: 'All', count: 6 },
+  { name: 'FastFood', count: 4 },
+  { name: 'Pizza', count: 2 },
+  { name: 'Lunch', count: 3 },
+  { name: 'SlowFood', count: 2 },
+  { name: 'Hamburger', count: 1 },
+  { name: 'Fry', count: 1 },
+  { name: 'Soup', count: 1 },
+]
+
+export const sample_users: any[] = [
+  {
+    name: "Anissa Ras",
+    email: "anissa@gmail.com",
+    password: "12345",
+    address: "Tanger",
+    isAdmin: true,
+  },
+  {
+    name: "Stecy Noro",
+    email: "Stecy@gmail.com",
+    password: "12345",
+    address: "Rabat",
+    isAdmin: false,
+  },
+];
+
